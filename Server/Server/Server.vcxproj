@@ -146,17 +146,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\error.c" />
-    <ClCompile Include="G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\requestSy.c" />
-    <ClCompile Include="G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\Server.c" />
-    <ClCompile Include="G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\serverSyUDP.c" />
+    <ClCompile Include="error.c" />
+    <ClCompile Include="requestSy.c" />
+    <ClCompile Include="Server.c" />
+    <ClCompile Include="serverSyUDP.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\data.h" />
-    <ClInclude Include="G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\packet.h" />
-    <ClInclude Include="G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\Request.h" />
-    <ClInclude Include="G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\serverSyUDP.h" />
-    <ClInclude Include="G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\toUDP.h" />
+    <ClInclude Include="data.h" />
+    <ClInclude Include="packet.h" />
+    <ClInclude Include="Request.h" />
+    <ClInclude Include="serverSyUDP.h" />
+    <ClInclude Include="toUDP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

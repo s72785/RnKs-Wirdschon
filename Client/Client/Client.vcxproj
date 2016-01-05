@@ -146,20 +146,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="G:\rnks\05.01.2016\Project1_v2.0\Project1\Client.c" />
-    <ClCompile Include="G:\rnks\05.01.2016\Project1_v2.0\Project1\ClientSy.c" />
-    <ClCompile Include="G:\rnks\05.01.2016\Project1_v2.0\Project1\error.c" />
-    <ClCompile Include="G:\rnks\05.01.2016\Project1_v2.0\Project1\FileSy.c" />
-    <ClCompile Include="G:\rnks\05.01.2016\Project1_v2.0\Project1\Timer.c" />
+    <ClCompile Include="Client.c" />
+    <ClCompile Include="ClientSy.c" />
+    <ClCompile Include="error.c" />
+    <ClCompile Include="FileSy.c" />
+    <ClCompile Include="Timer.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="G:\rnks\05.01.2016\Project1_v2.0\Project1\ClientSy.h" />
-    <ClInclude Include="G:\rnks\05.01.2016\Project1_v2.0\Project1\config.h" />
-    <ClInclude Include="G:\rnks\05.01.2016\Project1_v2.0\Project1\data.h" />
-    <ClInclude Include="G:\rnks\05.01.2016\Project1_v2.0\Project1\error.h" />
-    <ClInclude Include="G:\rnks\05.01.2016\Project1_v2.0\Project1\FileSy.h" />
-    <ClInclude Include="G:\rnks\05.01.2016\Project1_v2.0\Project1\Timer.h" />
-    <ClInclude Include="G:\rnks\05.01.2016\Project1_v2.0\Project1\toUDP.h" />
+    <ClInclude Include="ClientSy.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="data.h" />
+    <ClInclude Include="error.h" />
+    <ClInclude Include="FileSy.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="toUDP.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="test.txt" />
