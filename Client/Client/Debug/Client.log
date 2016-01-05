@@ -1,0 +1,48 @@
+﻿Build started 05.01.2016 15:26:45.
+     1>Project "c:\Users\note\documents\visual studio 2015\Projects\Client\Client\Client.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt G:\rnks\05.01.2016\Project1_v2.0\Project1\Client.c G:\rnks\05.01.2016\Project1_v2.0\Project1\ClientSy.c G:\rnks\05.01.2016\Project1_v2.0\Project1\error.c G:\rnks\05.01.2016\Project1_v2.0\Project1\FileSy.c G:\rnks\05.01.2016\Project1_v2.0\Project1\Timer.c
+         Timer.c
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\timer.c(25): warning C4018: '<': signed/unsigned mismatch
+         FileSy.c
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\filesy.c(5): warning C4013: 'malloc' undefined; assuming extern returning int
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\filesy.c(6): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\filesy.c(5): warning C4047: 'initializing': 'File *' differs in levels of indirection from 'int'
+         error.c
+         ClientSy.c
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(46): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int (__stdcall *)(void)'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(65): warning C4133: 'function': incompatible types - from 'request *' to 'const char *'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(97): warning C4133: 'function': incompatible types - from 'request *' to 'const char *'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(86): warning C4101: 'timestat': unreferenced local variable
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(113): warning C4133: 'function': incompatible types - from 'request *' to 'const char *'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(121): warning C4133: 'function': incompatible types - from 'SOCKADDR_IN6 *' to 'sockaddr *'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(133): warning C4047: 'function': 'PSTR' differs in levels of indirection from 'char (*)[128]'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(133): warning C4024: 'inet_ntop': different types for formal and actual parameter 3
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(144): warning C4133: 'function': incompatible types - from 'SOCKADDR_IN6 *' to 'sockaddr *'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(159): warning C4047: 'function': 'PSTR' differs in levels of indirection from 'char (*)[128]'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(159): warning C4024: 'inet_ntop': different types for formal and actual parameter 3
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(164): warning C4047: 'return': 'int *' differs in levels of indirection from 'unsigned int'
+         Client.c
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\client.c(145): warning C4047: 'function': 'int' differs in levels of indirection from 'int *'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\client.c(145): warning C4024: 'fromApp': different types for formal and actual parameter 4
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\client.c(152): warning C4013: 'sendData' undefined; assuming extern returning int
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\client.c(152): warning C4047: '=': 'timeouts *' differs in levels of indirection from 'int'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\client.c(77): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\client.c(156): warning C4047: 'initializing': 'int' differs in levels of indirection from 'int *'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\client.c(171): warning C4047: 'initializing': 'int' differs in levels of indirection from 'int *'
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\client.c(83): warning C4101: 'ans': unreferenced local variable
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\client.c(87): warning C4101: 'fp': unreferenced local variable
+         Generating Code...
+     1>g:\rnks\05.01.2016\project1_v2.0\project1\clientsy.c(203): warning C4716: 'fromApp': must return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\note\documents\visual studio 2015\Projects\Client\Debug\Client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\note\documents\visual studio 2015\Projects\Client\Debug\Client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\note\documents\visual studio 2015\Projects\Client\Debug\Client.lib" /MACHINE:X86 Debug\Client.obj
+         Debug\ClientSy.obj
+         Debug\error.obj
+         Debug\FileSy.obj
+         Debug\Timer.obj
+         Client.vcxproj -> c:\users\note\documents\visual studio 2015\Projects\Client\Debug\Client.exe
+     1>Done Building Project "c:\Users\note\documents\visual studio 2015\Projects\Client\Client\Client.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.11

@@ -1,0 +1,34 @@
+﻿Build started 05.01.2016 15:17:46.
+     1>Project "c:\Users\note\documents\visual studio 2015\Projects\Server\Server\Server.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\error.c G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\requestSy.c G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\Server.c G:\rnks\05.01.2016\Shit_APL_v1.2\Shit_APL\serverSyUDP.c
+         serverSyUDP.c
+     1>g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\serversyudp.c(80): warning C4133: 'function': incompatible types - from 'char [128]' to 'PWSTR'
+     1>g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\serversyudp.c(85): warning C4473: 'printf' : not enough arguments passed for format string
+         g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\serversyudp.c(85): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+         g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\serversyudp.c(85): note: the missing variadic argument 1 is required by format string '%d'
+     1>g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\serversyudp.c(115): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int (__stdcall *)(void)'
+     1>g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\serversyudp.c(128): warning C4473: 'fprintf' : not enough arguments passed for format string
+         g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\serversyudp.c(128): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+         g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\serversyudp.c(128): note: the missing variadic argument 1 is required by format string '%d'
+     1>g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\serversyudp.c(194): warning C4133: 'function': incompatible types - from 'answer *' to 'const char *'
+     1>g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\serversyudp.c(196): warning C4473: 'fprintf' : not enough arguments passed for format string
+         g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\serversyudp.c(196): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+         g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\serversyudp.c(196): note: the missing variadic argument 1 is required by format string '%d'
+         Server.c
+     1>g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\server.c(41): warning C4013: 'listenToSock' undefined; assuming extern returning int
+     1>g:\rnks\05.01.2016\shit_apl_v1.2\shit_apl\server.c(55): warning C4018: '<': signed/unsigned mismatch
+         requestSy.c
+         error.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\note\documents\visual studio 2015\Projects\Server\Debug\Server.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\note\documents\visual studio 2015\Projects\Server\Debug\Server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\note\documents\visual studio 2015\Projects\Server\Debug\Server.lib" /MACHINE:X86 Debug\error.obj
+         Debug\requestSy.obj
+         Debug\Server.obj
+         Debug\serverSyUDP.obj
+         Server.vcxproj -> c:\users\note\documents\visual studio 2015\Projects\Server\Debug\Server.exe
+     1>Done Building Project "c:\Users\note\documents\visual studio 2015\Projects\Server\Server\Server.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68
