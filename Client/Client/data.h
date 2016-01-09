@@ -1,9 +1,15 @@
+/*
+This code was provided by [Prof. Dr.-Ing S. Kühn](http://www.htw-dresden.de/en/faculty-of-informaticsmathematics/personal/professuren/prof-dr-sabine-kuehn.html)
+in December 2015
+at HTW Dresden for the purpose of solving the exercise
+without any notice of a license or copyright.
+All rights reserved, German law applies.
+*/
+
 /*Data Declaration*/
 /*For Client and Server*/
-#ifndef _DATAH_
+#ifndef _DATAH_	/* added condition by erlix */
 #define _DATAH_
-
-
 
 #define TIMEOUT_INT 300
 #define TIMEOUT 3

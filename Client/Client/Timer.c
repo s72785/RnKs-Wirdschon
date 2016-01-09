@@ -1,3 +1,10 @@
+/*
+This code was provided by [Prof. Dr.-Ing S. Kühn](http://www.htw-dresden.de/en/faculty-of-informaticsmathematics/personal/professuren/prof-dr-sabine-kuehn.html)
+in December 2015
+at HTW Dresden for the purpose of solving the exercise
+without any notice of a license or copyright.
+All rights reserved, German law applies.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>  
@@ -41,7 +48,9 @@ struct timeouts* add_timer(struct timeouts *list, int timer_val, unsigned long s
 					timer_val = timer_val - help->timer;
 				}
 				else
+				{
 					break;
+				}
 			}
 			// new element will be inserted after help
 			new_elem->next = help->next;
